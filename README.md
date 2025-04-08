@@ -17,8 +17,12 @@
  * run 'python3 fetch-abstract conf|journal conf-name|journal-name' to fetch the abstract
   * validate the fetch with the title against 
 
-# NOTE
+## NOTE
 * please do limit the semanticscholar API rate : < 100 request per 5 mins.
 
 ## TODO
 Too many things to do.
+
+## Refs
+* https://semanticscholar.readthedocs.io/en/latest/
+* https://dblp.org/faq/1474681.html
