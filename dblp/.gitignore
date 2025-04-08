@@ -1,9 +1,1 @@
 *.class
-dblp.*
-output/*
-output2/*
-journal/*
-conf/*
-journal*
-*.py
-GenerateCSV.java
