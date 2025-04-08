@@ -10,5 +10,10 @@ run-conf: all
 run-journal: all
 	java -Xmx32G -cp mmdb-2019-04-29.jar:. DblpParserJournal dblp.xml dblp.dtd
 
+download:
+	wget https://dblp.org/xml/dblp.xml.gz
+	gunzip dblp.xml.gz
+	wget https://dblp.org/xml/dblp.dtd
+
 clean:
 	rm *.class
